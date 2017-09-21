@@ -9,7 +9,7 @@
     &1,&2,&3{ height: 385px; }
     &4,&5,&6,&7{ height: 165px; }
     &1{ & > img{ position: absolute; }}
-    &2{ & > img{ position: absolute; }}
+    &2{ & > img{ position: absolute; left: 0; }}
     &3{ & > img {
         position: absolute;
         left: -10px;
