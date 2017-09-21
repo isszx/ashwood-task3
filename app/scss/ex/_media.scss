@@ -1,21 +1,23 @@
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
-@media screen and (min-width: 576px) {
-
-}
+@media screen and (min-width: 576px) {}
 @media screen and (max-width: 600px) {
   .header__box1 > img {width: auto!important;}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .header__box1, .header__box3 {padding: 0!important;}
-  .info__nav{border-color: #ececec;}
   .header__box3{height: 100%;}
   .box3__elements{display: block; margin: 0 auto;}
   .box3__text{margin-top: 0;}
   .header__box3{background-color: #000;}
-  .header__box2,.header__box4,.header__box7,.header__box3 > img { display: none !important; }
-  #nav__content{ text-align: center; }
+  .header__box2,.header__box4,.header__box7,.header__box3 > img {display: none !important;}
+  .box1__data2, .box1__data3{font-size: 0.7em;}
+  .box1__text{margin-left: 15px;}
+  .box1__data3 b{ font-size: 2em; }
+  .greywhite{overflow: hidden;}
+  .header__box{height: 100%; max-height: 100%;}
+  #nav__content{text-align: center;}
   #nav__content .nav{
     &__data{
       &1{margin-bottom: 15px!important; margin-top: 15px!important;}
@@ -28,13 +30,15 @@
     &__phone{text-align: center;}
     &__address{text-align: center;}
   }
-  .box1__data2, .box1__data3{font-size: 0.7em;}
-  .box1__text{margin-left: 15px;}
-  .box1__data3 b { font-size: 2em; }
-  .greywhite{overflow: hidden;}
-  .header__box{height: 100%; max-height: 100%;}
 }
 @media screen and (max-width: 992px) {
-  .header__box1 > img {width: 100%;}
   #info__grey{display: none;}
+  .header__box1 > img{width: 100%;}
+  .info__nav{border-color: #ececec;}
+}
+@media screen and (max-width: 1020px) {
+   .info__elements{margin-left: 5px;}
+}
+@media screen and (max-width: 1170px) {
+
 }
