@@ -313,12 +313,16 @@ footer {
 @media screen and (max-width: 768px) {
   #nav__content {
     text-align: center; }
-  .nav__logo {
+  #nav__content .nav__data1 {
+    margin-bottom: 15px !important; }
+  #nav__content .nav__data3 {
+    margin-top: 15px !important; }
+  #nav__content .nav__logo {
     display: block;
     margin: 0 auto; }
-  .nav__phone {
+  #nav__content .nav__phone {
     text-align: center; }
-  .nav__address {
+  #nav__content .nav__address {
     text-align: center; }
   .greywhite {
     display: none !important; } }

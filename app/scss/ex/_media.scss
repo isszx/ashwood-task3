@@ -6,7 +6,11 @@
 }
 @media screen and (max-width: 768px) {
   #nav__content{ text-align: center; }
-  .nav{
+  #nav__content .nav{
+    &__data{
+      &1{margin-bottom: 15px!important;}
+      &3{margin-top: 15px!important;}
+    }
     &__logo{
       display: block;
       margin: 0 auto;
