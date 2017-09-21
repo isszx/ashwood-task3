@@ -202,19 +202,22 @@
     margin: 0 auto;
     display: block; }
 
-#info__content h1 {
-  padding: 40px 0;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold; }
+#info__content {
+  overflow: hidden; }
+  #info__content h1 {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold; }
 
 #info__grey {
   height: 4px;
   background-color: #f9fafb;
   position: absolute;
   bottom: 0;
-  left: 15px;
-  right: 15px; }
+  width: calc(100% - 30px);
+  margin: 0 auto;
+  left: 15px; }
 
 .info__nav {
   z-index: 3;

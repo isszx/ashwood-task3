@@ -1,4 +1,5 @@
 #info__content{
+  overflow: hidden;
   & h1{
     padding: 40px 0;
     text-align: center;
@@ -11,7 +12,9 @@
   background-color: #f9fafb;
   position: absolute;
   bottom: 0;
-  left: 15px; right: 15px;
+  width: calc(100% - 30px);
+  margin: 0 auto;
+  left: 15px;
 }
 .info{
   &__nav{
