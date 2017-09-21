@@ -1,0 +1,42 @@
+#info__content{
+  & h1{
+    line-height: 4;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+#info__grey{
+  height: 4px;
+  background-color: #f9fafb;
+  position: absolute;
+  bottom: 0;
+  left: 15px; right: 15px;
+}
+.info{
+  &__nav{
+    @extend %flexim;
+    z-index: 3;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 4px solid transparent;
+    height: 80px;
+    opacity: .4;
+    &:hover{
+      border-bottom: 4px solid $brandColor;
+      opacity: 1;
+    }
+    &.active{
+      border-bottom: 4px solid $brandColor;
+      opacity: 1;
+    }
+  }
+  &__elements{
+    margin-left: 15px;
+    vertical-align: middle;
+  }
+  &__header{font-size: 18px; font-weight: bold;}
+  &__bottom{font-size: 13px;}
+}
+
+@import "_cars.scss";

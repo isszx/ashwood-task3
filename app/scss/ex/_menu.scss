@@ -1,0 +1,21 @@
+#menu_content{
+  padding-top: 25px;
+  & .row div{
+    padding: 15px;
+  }
+}
+
+.mc{
+  &__box{
+    &1,&2,&3,&4,&5,&6{
+      @extend %mc-boxed;
+      @extend %flexim;
+    }
+  }
+  &__content{
+    margin: 0 auto;
+    & img {
+      margin: 0 auto;
+      display: block;}
+  }
+}

@@ -1,0 +1,46 @@
+footer{
+  background-color: #242526;
+  margin-top: 15px;
+  & .footer{
+    &__header{
+      padding-top: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    &__info{
+      font-size: 13px;
+      color: #989b9e;
+      padding-bottom: 30px;
+    }
+    &__list{
+      & li{
+        list-style: none;
+      }
+      & a{
+        font-size: 13px;
+        color: #f9fafb;
+        text-decoration: underline;
+        &:hover{
+          color: $brandColor;
+        }
+      }
+    }
+  }
+  & .dev{
+    background-color: #fff;
+    font-size: 13px;
+    font-family: $font;
+    color: #7c7c7c;
+    text-align: center;
+    padding: 25px 0;
+    box-sizing: border-box;
+    & a{
+      text-decoration: underline;
+      color: #000;
+      &:hover{
+        color:$brandColor;
+      }
+    }
+  }
+}

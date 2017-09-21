@@ -1,0 +1,36 @@
+#nav{
+  &__container{
+    margin: auto;
+    padding: 0;
+  }
+  &__content{
+    min-height: 125px;
+    max-height: 100%;
+  }
+}
+.nav{
+  &__phone{
+    color: $fontCC;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+  &__address{
+    font-size: 13px;
+    display: block;
+  }
+  &__logo{
+    display: inline-block;
+    filter: grayscale(100%);
+    &:hover{
+      filter: grayscale(70%);
+    }
+  }
+}
+.label{
+  &__seller{
+    font-size: 13px;
+    color: #878787;
+  }
+}

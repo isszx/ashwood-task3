@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <title>Document</title>
+</head>
+<body>
+  <!--
+    Используя Bootstrap сверстайте лендинг по предоставленному макету.
+    Страница должна быть совместима со следующими браузерами:
+    IE 10+, Safari, FF, Chrome, Opera и быть адаптивной
+    (корректно перестраиваться для мобильных устройств).
+    Приветствуется использование препроцессоров.
+  -->
+  <article class="container-fluid">
+    <div class="row" id="nav__content">
+      <a class="col-md-4 col-sm-6 col-12 my-auto" href="#">
+        <img src="img/logo.png"
+             width="200" height="72"
+             class="nav__logo"
+             alt="">
+      </a>
+      <div class="col-md-5 col-sm-6 col-12 my-auto">
+        <label for="select-seller" class="label__seller">Выбрать дилера:</label>
+        <select class="custom-select d-inline-block" id="select-seller">
+          <option value="1" selected><i class="icon" id="mazda">M</i> Атлант-М Холпи</option>
+          <option value="2">Атлант-М</option>
+        </select>
+      </div>
+      <div class="col-md-3 col-12 my-auto d-inline-block">
+        <span class="nav__phone">+375 (17) 201-01-01</span>
+        <span class="nav__address">г. Минск дер. Боровая, д. 2</span>
+      </div>
+    </div>
+  </article>
+
+  <div class="greywhite" id="header__content">
+    <article class="container-fluid">
+      <div class="row header__box">
+        <div class="col-6 header__box1">
+          <img src="img/bg1.jpg" alt="">
+          <div class="box1__text">
+            <span class="box1__data1">20-22 января</span>
+            <span class="box1__data2">Большая распродажа</span>
+            <span class="box1__data3">в <b>Атлант-М</b></span>
+          </div>
+        </div>
+        <div class="col-3 header__box2">
+          <img src="img/bg2.jpg" alt="">
+        </div>
+        <div class="col-3 header__box3">
+          <img src="img/bg3.jpg" alt="">
+          <div class="box3__text">
+            <div class="box3__elements">
+              <div class="box3__data1">скидки до <img src="img/icon90.png" alt="" width="84" height="43"></div>
+              <div class="box3__data2">сервис - запчасти - аксессуары</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 header__box4">
+          <img src="img/bg4.jpg" alt="">
+        </div>
+        <div class="col-3 header__box5">
+          <div class="box5__text">
+            <div class="box3__elements mx-auto">
+              <div class="box5__data1">Только 3 дня!</div>
+              <div class="box5__data2">Специальные цены</div>
+              <div class="box5__data3">у дилеров Атлант-М</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 header__box6">
+          <div class="box6__text">
+            <div class="box3__elements mx-auto">
+              <div class="box6__data1">Выгода до</div>
+              <div class="box6__data2">7000 BYN</div>
+              <div class="box6__data3">на новые автомобили</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 header__box7">
+          <img src="img/wheel.png" alt="">
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <article class="container-fluid" id="menu_content">
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <a class="mc__box1" href="#">
+          <div class="mc__content">
+            <img src="img/car1.png" alt="" class="icon">
+            Новые автомобили
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-12">
+        <a class="mc__box2" href="#">
+          <div class="mc__content">
+            <img src="img/car2.png" alt="" class="icon">
+            Автомобили с пробегом
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-12">
+        <a class="mc__box3" href="#">
+          <div class="mc__content">
+            <img src="img/car3.png" alt="" class="icon">
+            Финансовый сервис
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-12">
+        <a class="mc__box4" href="#">
+          <div class="mc__content">
+            <img src="img/car4.png" alt="" class="icon">
+            Услуги сервиса
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-12">
+        <a class="mc__box5" href="#">
+          <div class="mc__content">
+            <img src="img/car5.png" alt="" class="icon">
+            Запасные части
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-12">
+        <a class="mc__box6" href="#">
+          <div class="mc__content">
+            <img src="img/car6.png" alt="" class="icon">
+            Дополнительное оборудование
+          </div>
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <article class="container-fluid" id="info__content">
+    <h1>Отобразить предложения по бренду</h1>
+    <div class="row pos-rel">
+          <a class="col-sm-6 col-lg-3 col-12">
+            <div class="info__nav">
+              <img src="img/cars/volkswagen.png" alt="" class="d-inline-block">
+              <div class="info__elements d-inline-block">
+                <span class="info__header d-block">Volkswagen</span>
+                <span class="info__bottom d-block">7 спецпредложений</span>
+              </div>
+            </div>
+          </a>
+          <a class="col-sm-6 col-lg-3 col-12">
+            <div class="info__nav">
+              <img src="img/cars/ford.png" alt="" class="d-inline-block">
+              <div class="info__elements d-inline-block">
+                <span class="info__header d-block">Ford</span>
+                <span class="info__bottom d-block">12 спецпредложений</span>
+              </div>
+            </div>
+          </a>
+          <a class="col-sm-6 col-lg-3 col-12">
+            <div class="info__nav active">
+              <img src="img/cars/mazda.png" alt="" class="d-inline-block">
+              <div class="info__elements d-inline-block">
+                <span class="info__header d-block">Mazda</span>
+                <span class="info__bottom d-block">8 спецпредложений</span>
+              </div>
+            </div>
+          </a>
+          <a class="col-sm-6 col-lg-3 col-12">
+            <div class="info__nav">
+              <img src="img/cars/kia.png" alt="" class="d-inline-block">
+              <div class="info__elements d-inline-block">
+                <span class="info__header d-block">KIA</span>
+                <span class="info__bottom d-block">14 спецпредложений</span>
+              </div>
+            </div>
+          </a>
+          <div class="col-md-12" id="info__grey"></div>
+    </div>
+      <div class="row mt-5" id="info__cars">
+        <div class="col-sm-6 col-lg-3 col-12">
+          <div class="car__box">
+            <img src="img/cars/car-mazda.png" alt="">
+            <h3 class="car__header">
+              Финальное предложение года от Mazda
+            </h3>
+            <p class="car__about">
+              Таких цен Вы ждали очень долго! Только до 31 января 2017 года
+              приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+              привлекательные условия покупки автомобилей Mazda:
+              <a href="#" class="btn car__btn">подробнее</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-12">
+          <div class="car__box">
+            <img src="img/cars/car-mazda.png" alt="">
+            <h3 class="car__header">
+              Идеальный момент для покупки. Распродажа склада Volkswagen.
+            </h3>
+            <p class="car__about">
+              Volkswagen в Беларуси объявляет большую распродажу склада
+              автомобилей 2016 года выпуска! Только в январе действует
+              выгода до 2600 рублей на модели Polo, Jetta и Tiguan.
+              <a href="#" class="btn car__btn">подробнее</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-12">
+          <div class="car__box">
+            <img src="img/cars/car-mazda.png" alt="">
+            <h3 class="car__header">
+              Грандиозная распродажа склада 2016 года выпуска!
+            </h3>
+            <p class="car__about">
+              Такой распродажи у марки Ford в Беларуси не было давно!<br>
+              Автоцентр «Атлант-М Боровая» предлагает автомобили Ford 2016 года
+              выпуска по беспрецедентно низким ценам.
+              <a href="#" class="btn car__btn">подробнее</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-12">
+          <div class="car__box">
+            <img src="img/cars/car-mazda.png" alt="">
+            <h3 class="car__header">
+              Выгодные предложения предложение года KIA
+            </h3>
+            <p class="car__about">
+              Скидка до 2тыс руб на новые авто 1. Выгода на Rio - 1000 рублей и
+              Sportage 2000 рублей. 2. Дополнительная выгода до 1000 рублей на
+              ограниченную партию Рио с АКПП
+              <a href="#" class="btn car__btn">подробнее</a>
+             </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-12">
+          <div class="car__box">
+            <img src="img/cars/car-mazda.png" alt="">
+            <h3 class="car__header">
+              Финальное предложение года от Mazda
+            </h3>
+            <p class="car__about">
+              Таких цен Вы ждали очень долго! Только до 31 января 2017 года
+              приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+              привлекательные условия покупки автомобилей Mazda:
+              <a href="#" class="btn car__btn">подробнее</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-12">
+          <div class="car__box">
+            <img src="img/cars/car-mazda.png" alt="">
+            <h3 class="car__header">
+              Финальное предложение года от Mazda
+            </h3>
+            <p class="car__about">
+              Таких цен Вы ждали очень долго! Только до 31 января 2017 года
+              приглашаем Вас в автоцентр Атлант-М Холпи, где Вас ждут самые
+              привлекательные условия покупки автомобилей Mazda:
+              <a href="#" class="btn car__btn">подробнее</a>
+            </p>
+          </div>
+        </div>
+    </div>
+  </article>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class=".col-lg-5 col-12">
+          <div class="footer__header">Атлант-М</div>
+          <div class="footer__info">
+            <p>Информационно-сервисный портал «Атлант-М
+              Международный автомобильный холдинг» © 2007­-2017 Атлант-М</p>
+            <p>Информация, представленная на сайте не
+              является договором публичной оферты.</p>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class=".col-lg-5 col-12">
+          <div class="footer__header">Дилеры</div>
+          <div class="footer__list row">
+            <ul class="col-6">
+              <li><a href="#">Атлант-М на Машиностроителей</a></li>
+              <li><a href="#">Атлант-М Сухарево</a></li>
+              <li><a href="#">Атлант-М Уручье</a></li>
+           </ul>
+           <ul class="col-6">
+              <li><a href="#">Атлант–М Холпи</a></li>
+              <li><a href="#">Атлант-М на Независимости</a></li>
+              <li><a href="#">Атлант-М Боровая Ford</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+    <div class="dev">Дизайн  и создание сайта - <a href="//ashwood.by">AshwoodCreative</a> © 2017</div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+          integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+          crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+          integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+          crossorigin="anonymous"></script>
+</body>
+</html>

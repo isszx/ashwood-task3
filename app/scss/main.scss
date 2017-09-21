@@ -1,0 +1,22 @@
+// Шрифты
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$font: 'Open Sans', sans-serif;
+// Цвета
+@import "ex/_colors.scss";
+// Extend
+@import "ex/_extend.scss";
+.container-fluid{
+  max-width: 1170px;
+  font-family: $font;
+  color: $fontColor;
+}
+.pos-rel{
+  position: relative;
+}
+@import "ex/_nav.scss";
+@import "ex/_header.scss";
+@import "ex/_icons.scss";
+@import "ex/_menu.scss";
+@import "ex/_info.scss";
+@import "ex/_footer.scss";
+
