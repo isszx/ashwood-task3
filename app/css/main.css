@@ -202,7 +202,7 @@
     display: block; }
 
 #info__content h1 {
-  line-height: 4;
+  padding: 40px 0;
   text-align: center;
   font-size: 24px;
   font-weight: bold; }
@@ -310,12 +310,19 @@ footer {
       footer .dev a:hover {
         color: #ffc000; }
 
-@media screen and (min-width: 576px) {
-  .greywhite {
-    display: none !important; } }
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+  #nav__content {
+    text-align: center; }
+  .nav__logo {
+    display: block;
+    margin: 0 auto; }
   .nav__phone {
     text-align: center; }
   .nav__address {
-    text-align: center; } }
+    text-align: center; }
+  .greywhite {
+    display: none !important; } }
+
+@media screen and (max-width: 992px) {
+  #info__grey {
+    display: none; } }

@@ -1,0 +1,21 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+@media screen and (min-width: 576px) {
+
+}
+@media screen and (max-width: 768px) {
+  #nav__content{ text-align: center; }
+  .nav{
+    &__logo{
+      display: block;
+      margin: 0 auto;
+    }
+    &__phone{text-align: center;}
+    &__address{text-align: center;}
+  }
+  .greywhite{display: none!important;}
+}
+@media screen and (max-width: 992px) {
+  #info__grey{display: none;}
+}

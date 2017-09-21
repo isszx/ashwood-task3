@@ -5,6 +5,7 @@ $font: 'Open Sans', sans-serif;
 @import "ex/_colors.scss";
 // Extend
 @import "ex/_extend.scss";
+
 .container-fluid{
   max-width: 1170px;
   font-family: $font;
@@ -13,6 +14,7 @@ $font: 'Open Sans', sans-serif;
 .pos-rel{
   position: relative;
 }
+
 @import "ex/_nav.scss";
 @import "ex/_header.scss";
 @import "ex/_icons.scss";
@@ -20,3 +22,4 @@ $font: 'Open Sans', sans-serif;
 @import "ex/_info.scss";
 @import "ex/_footer.scss";
 
+@import "ex/_media.scss";
