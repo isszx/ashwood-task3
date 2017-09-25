@@ -12,6 +12,12 @@
       @extend %flexim;
     }
   }
+  &__button{
+    &.active{
+      border: 5px solid $brandColor;
+      box-sizing: border-box;
+    }
+  }
   &__content{
     margin: 0 auto;
     & img {

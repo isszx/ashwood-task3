@@ -4,12 +4,12 @@ footer{
   & .footer{
     &__header{
       padding-top: 30px;
-      font-size: 18px;
+      font-size: 1.125rem;
       font-weight: bold;
       color: #fff;
     }
     &__info{
-      font-size: 13px;
+      font-size: 0.8125rem;
       color: #989b9e;
       padding-bottom: 30px;
     }
@@ -18,7 +18,7 @@ footer{
         list-style: none;
       }
       & a{
-        font-size: 13px;
+        font-size: 0.8125rem;
         color: #f9fafb;
         text-decoration: underline;
         &:hover{
@@ -29,7 +29,7 @@ footer{
   }
   & .dev{
     background-color: #fff;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-family: $font;
     color: #7c7c7c;
     text-align: center;

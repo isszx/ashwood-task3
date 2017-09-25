@@ -11,13 +11,13 @@
 .nav{
   &__phone{
     color: $fontCC;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     font-weight: bold;
     display: block;
   }
   &__address{
-    font-size: 13px;
+    font-size: 0.8125rem;
     display: block;
   }
   &__logo{
@@ -30,7 +30,7 @@
 }
 .label{
   &__seller{
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: #878787;
   }
 }

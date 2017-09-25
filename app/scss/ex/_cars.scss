@@ -2,8 +2,9 @@
 
 .btn.car__btn{
   border-radius: 2px;
-  font-size: 13px;
-  height: 35px; width: 123px;
+  font-size: 0.8125rem;
+  height: 35px;
+  width: 123px;
   line-height: 35px;
   padding: 0;
   border:none;
@@ -19,11 +20,11 @@
   }
   &__header{
     margin: 25px 0 20px 0;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
   }
   &__about{
-    font-size: 13px;
+    font-size: 0.8125rem;
     padding-bottom: 30px;
   }
   &__btn{
@@ -31,7 +32,8 @@
     background-color: $brandColor;
     color: $fontColor;
     position: absolute;
-    bottom: 15px; left: 15px;
+    bottom: 15px;
+    left: 15px;
     &:hover{
       color: #fff;
     }
