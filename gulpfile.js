@@ -1,8 +1,8 @@
 var gulp      = require('gulp'), // Подключаем Gulp
     sass        = require('gulp-sass'), //Подключаем Sass пакет,
-    browserSync = require('browser-sync'); // Подключаем Browser Sync
-    autoprefixer = require('gulp-autoprefixer');// Подключаем библиотеку для автоматического добавления префиксов
-
+    browserSync = require('browser-sync'), // Подключаем Browser Sync
+    autoprefixer = require('gulp-autoprefixer'), // Подключаем библиотеку для автоматического добавления префиксов
+    sourcemaps = require('gulp-sourcemaps');
 // gulp.task('mytask', function () {
 //   return gulp.src('source-files') // Выборка исходных файлов для обработки плагином
 //     .pipe(plugin()) // Вызов Gulp плагина для обработки файла
@@ -11,8 +11,10 @@ var gulp      = require('gulp'), // Подключаем Gulp
 
 gulp.task('scss', function(){ // Создаем таск Sass
     return gulp.src('app/scss/**/*.scss') // Берем источник
+                .pipe(sourcemaps.init())
                 .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-scss
                 .pipe(autoprefixer(['last 5 versions', '> 1%', 'ie 10'], { cascade: true })) // Создаем префиксы
+                .pipe(sourcemaps.write('./maps'))
                 .pipe(gulp.dest('app/css')) // Выгружаем результата в папку app/css
                 .pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
 });
